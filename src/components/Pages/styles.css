@@ -1,0 +1,28 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    & .title {
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+.dropdown {
+	display: block;
+	width: 200px;
+	padding: 3px;
+	margin: 0 20px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.flex {
+    display: flex;
+    & p {
+        margin: 0;
+    }
+}
+
+.button {
+    
+}
